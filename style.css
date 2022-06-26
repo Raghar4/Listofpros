@@ -1,0 +1,30 @@
+/* audio {
+    display: none;
+} */
+
+.bounce {
+    background-color: transparent;
+    /* border: 3px solid #ff0251; */
+    color: yellow
+    /* transition: .3s;
+    animation: pulse 1s infinite;
+    transition: .3s; */
+}
+
+.bounce:hover {
+    animation: pulse 2s infinite;
+    transition: .5s;
+    color: #ff0251;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    70% {
+        transform: scale(.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
